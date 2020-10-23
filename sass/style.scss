@@ -144,7 +144,7 @@ header {
 			width: 50%;
 		}
 
-		@media (min-width: 800px) {
+		@media (min-width: 820px) {
 
 			.wrapper > div {
 
@@ -155,6 +155,10 @@ header {
 				a.btn {
 					float: right;
 					margin-left: 17px;
+				}
+
+				.btn-wrap {
+					display: inline-block;
 				}
 			}
 		}
@@ -172,11 +176,11 @@ section {
 		}
 
 		.slide-1 {
-			background: url('../assets/img/slides/bedroom.png') center center no-repeat;
+			background: url('../assets/img/slides/lounge.png') center center no-repeat;
 		}
 
 		.slide-2 {
-			background: url('../assets/img/slides/lounge.png') center center no-repeat;
+			background: url('../assets/img/slides/bedroom.png') center center no-repeat;
 		}
 
 		.slide-3 {
